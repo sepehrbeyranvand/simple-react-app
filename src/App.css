@@ -1,0 +1,45 @@
+
+h1,p{
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.active{
+  background-color: #282c34;
+  color: white !important;
+  padding: 10px;
+  border-radius: 6px;
+}
+nav{
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  gap: 1em;
+  margin-right: 4px;
+}
+a{
+  text-decoration: none !important;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.innerDiv{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 2px solid palevioletred;
+  border-radius: 6px;
+  width: 60%;
+  margin: 10px;
+}
